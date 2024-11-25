@@ -10,17 +10,11 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Лабораторная работа №3</h1>
-        <nav>
-            <ul>
-                <li><a href="index.php">Главная</a></li>
-                <li><a href="lab3.php">Лабораторная работа №3</a></li>
-                <li><a href="lab4.php">Лабораторная работа №4</a></li>
-            </ul>
-        </nav>
-    </header>
-
+ 
+    <?php 
+        include 'header.php'   
+    ?>
+    
     <main>
         <section>
             <h2>Описание задач</h2>
@@ -89,8 +83,9 @@
         </section>
     </main>
 
-    <footer>
-        <p>&copy; 2024 Пример компании. Все права защищены.</p>
-    </footer>
+    <?php
+        include 'footer.php'
+    ?>
+
 </body>
 </html>

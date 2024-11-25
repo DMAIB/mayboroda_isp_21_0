@@ -9,22 +9,7 @@
     <title>Сайт для лабораторных работ</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
 
-    <?php 
-        include 'header.php'   
-    ?>
-
-    <main>
-        <section>
-            <h2>Основной контент</h2>
-            <p>Это пример основного контента на странице. Здесь можно разместить текст, изображения и другие элементы.</p>
-        </section>
-    </main>
-
-    <?php
-        include 'footer.php'
-    ?>
-    
-</body>
-</html>
+<footer>
+    <p>&copy; 2024 Пример компании. Все права защищены.</p>
+</footer>
